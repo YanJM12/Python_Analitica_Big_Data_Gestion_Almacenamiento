@@ -1,0 +1,33 @@
+project:
+  name: proyecto_entrega_final_ipm
+  version: 1.0
+  description: "Analisis de indice de probreza multidimensional"
+  author: "Maria Angel Martinez- Yan Carlos Murillo - David Ramirez - Juan Sebastian Navas Lozano"
+  license: MIT
+  repository: "https://github.com/juasn-spec/stargazers-log.git"
+  date: "2026-10-03"
+
+paths:
+  data_dir: data 
+  bronze_dir: data/bronze
+  silver_dir: data/silver
+  gold_dir: data/gold
+  logs_dir: logs
+  notebooks_dir: noteboook
+
+
+sources:
+  hogares_ipm:
+   path: data/bronze/Dataset_hogares.csv
+   file_name: Dataset_hogares.csv
+   file_type: csv
+
+  poblacion_nini:
+    path: "data/bronze/poblacion_nini.csv"
+    file_name: "poblacion_nini.csv"
+    file_type: "csv" 
+
+  ipm_variables:
+    path: "data/bronze/ipm_variables_largo.csv"
+    filename: "ipm_variables_largo.csv"
+    file_type: "csv"
